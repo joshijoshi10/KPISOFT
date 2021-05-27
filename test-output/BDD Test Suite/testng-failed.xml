@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" parallel="methods" name="Failed suite [BDD Test Suite]" guice-stage="DEVELOPMENT">
+  <test parallel="methods" name="feature(failed)">
+    <classes>
+      <class name="Runner.TestRunner">
+        <methods>
+          <include name="feature" invocation-numbers="3 5 2 0 1 4"/>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Runner.TestRunner -->
+    </classes>
+  </test> <!-- feature(failed) -->
+</suite> <!-- Failed suite [BDD Test Suite] -->

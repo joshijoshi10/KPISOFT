@@ -1,0 +1,290 @@
+Summary,Issue key,Issue id,Parent id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project description,Project url,Priority,Resolution,Assignee,Reporter,Creator,Created,Updated,Last Viewed,Resolved,Component/s,Due date,Votes,Labels,Labels,Description,Environment,Watchers,Watchers,Watchers,Original Estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Attachment,Attachment,Custom field (Development),Custom field (Epic Link),Custom field (Issue Classification),Custom field (Issue color),Custom field (New Feature Standard of Procedure),Custom field (Rank),Custom field (Release Needed),Custom field (Request Type),Custom field (Request participants),Custom field (Start date),Custom field (Story point estimate),Custom field (Tenant),Custom field ([CHART] Date of First Response),Comment,Comment
+While Create designation it showing all the field mandatory but we can able to create Designation. ,NEV-2471,52291,52070,Sub-task,QA,NEV,Skylark,software,removed1,,,Major,,deepak.kumar,ankit.tripathi,ankit.tripathi,26/Nov/18 7:37 PM,26/Nov/18 10:31 PM,27/Nov/18 12:17 PM,,HRIS Data,,0,Web,,"Step to replicate-
+1-Click on Edit designation.
+2-Fill the input box and leave some mandatory field and click on save.
+
+Note-User is able to create Designation.
+
+For more detail refer the screen shot.
+
+",Desktop,ankit.tripathi,,,,,,,,,,,26/Nov/18 7:37 PM;ankit.tripathi;checkForDes.png;https://kpisoft.atlassian.net/secure/attachment/47454/checkForDes.png,,{},,,,,0|ywpd75:,,,,,,QA,,26/Nov/18 8:14 PM;ankit.tripathi;Same issue with employment type.,
+Postion tab is not working it showing round logo.,NEV-2470,52290,52070,Sub-task,QA,NEV,Skylark,software,removed1,,,Major,,deepak.kumar,ankit.tripathi,ankit.tripathi,26/Nov/18 7:24 PM,26/Nov/18 10:31 PM,27/Nov/18 12:17 PM,,HRIS Data,,0,Web,,"Step to replicate-
+1-Click on the position tab.
+
+Note-it showing waiting logo .
+
+For more detail  refer the screen shot.
+
+",Desktop,ankit.tripathi,,,,,,,,,,,26/Nov/18 7:22 PM;ankit.tripathi;FIne.png;https://kpisoft.atlassian.net/secure/attachment/47453/FIne.png,,{},,,,,0|ywpd6x:,,,,,,QA,,,
+if we create a strategy with all level combination and while creating group kpi its showing something went wrong,NEV-2469,52289,52070,Sub-task,QA,NEV,Skylark,software,removed1,,,Blocker,,hitesh.jain@kpisoft.com,kiran.m,kiran.m,26/Nov/18 6:50 PM,26/Nov/18 9:32 PM,26/Nov/18 6:50 PM,,Performance Program,,0,Functional,Web,"problem
+if we try to create a group kpi with strategy of all the level combination its showing something went wrong
+scenario
+1 log in as admin and create a strategy with all the level like p1-t1-o1,p1-t1,p1 and publish
+2 log inn  as user and create a kpi with above staretgy
+user:-armstrong@tester.com
+
+",,kiran.m,,,,,,,,,,,,,{},,,,,0|ywpd6p:,,,,,,QA,,,
+"In Submit review , user able to see couldn't get score",NEV-2461,52281,52070,Sub-task,QA,NEV,Skylark,software,removed1,,,Major,,hitesh.jain@kpisoft.com,ramkumar,ramkumar,26/Nov/18 3:57 PM,26/Nov/18 9:32 PM,26/Nov/18 4:58 PM,,Performance Program,,0,Web,,"In Submit review user able to see Could not get Score. Number value exception.
+
+Steps:
+1. Login as Employee who have submit review holding both Group kpi and non-group kpi
+2. Click on submit review able to see Couldn't get score error message 
+
+Credentials:
+emp3@tester.com/Test@123 
+
+!image-2018-11-26-13-25-04-091.png|thumbnail! ",https://sdgqa.kpisoft.com/home/,ramkumar,,,,,,,,,,,26/Nov/18 3:54 PM;ramkumar;image-2018-11-26-13-25-04-091.png;https://kpisoft.atlassian.net/secure/attachment/47448/image-2018-11-26-13-25-04-091.png,,{},,,,,0|ywpd4x:,,,,,,QA,,,
+Not able to update the employee supervisor from employee list.,NEV-2458,52278,52070,Sub-task,QA,NEV,Skylark,software,removed1,,,Major,,hitesh.jain@kpisoft.com,ankit.tripathi,ankit.tripathi,26/Nov/18 3:51 PM,26/Nov/18 6:22 PM,26/Nov/18 3:52 PM,,HRIS Data,,0,Web,,"Step to replicate-
+1-Click on Employee tab.
+2-Select the employee and click on edit.
+3-Change the supervisor for that user and click on save
+
+Note-it changing supervisor while updating getting pop up that can't update the supervisor.
+
+username-peter@sdg.com
+pwd-Test@123
+
+
+For more detail refer the screen shot.
+
+
+",Desktop,ankit.tripathi,,,,,,,,,,,26/Nov/18 3:51 PM;ankit.tripathi;failedToUpdate.png;https://kpisoft.atlassian.net/secure/attachment/47446/failedToUpdate.png,,{},,,,,0|ywpd49:,,,,,,QA,,,
+primary supervisor can able to edit the perspective its showing success message ,NEV-2457,52277,52070,Sub-task,QA,NEV,Skylark,software,removed1,,,Critical,,sagar,kiran.m,kiran.m,26/Nov/18 3:37 PM,26/Nov/18 9:32 PM,26/Nov/18 3:37 PM,,Performance Program,,0,Functional,Web,"problem
+in approve scorecard supervisor can able to select the perspective and but once after update it not saving
+scenario
+1 log in as user and create a kpi and submit t o supervisor
+2 log in as supervisor and try to edit the perspective
+excepted result
+primary supervisor cannot able to edit the strategy
+",,kiran.m,,,,,,,,,,,,,{},,,,,0|ywpd41:,,,,,,QA,,,
+"[KPI Library]: After push the kpi , on  Objective library upload page , kpi title and  start date is overriding",NEV-2454,52274,52223,Sub-task,QA,NEV,Skylark,software,removed1,,,Major,,deepak.kumar,anuj.kothari,anuj.kothari,26/Nov/18 2:19 PM,26/Nov/18 9:32 PM,27/Nov/18 12:17 PM,,Performance Program,,0,UI/UX,,"+PROBLEM DESCRIPTION:+
+ After push the kpi , on  Objective library upload page , kpi title and  start date is overlapping.
+
++STEPS TO REPRODUCE:+
+1. Login to sdg and navigate to epms admin.
+2. Select objective library option from the program management .
+3 Select any kpi and push kpi for the program .
+4. now check on objective library page for that kpi . 
+
+
++CREDENTIALS:+
+emp9@sdg.com
+Test@123
+
++EXPECTED RESULT:+
+kpi title and start date should not be overlapped .
+
++ATTACHMENTS:(Y/N)+
+Y  
+",,anuj.kothari,,,,,,,,,,,26/Nov/18 2:19 PM;anuj.kothari;overlapping issue.png;https://kpisoft.atlassian.net/secure/attachment/47442/overlapping+issue.png,,{},,,,,0|ywpd3d:,,,,,,QA,,,
+if we trigger review more than current date its showing review triggered already,NEV-2444,52254,52070,Sub-task,QA,NEV,Skylark,software,removed1,,,Major,,nethra.hegde,kiran.m,kiran.m,23/Nov/18 5:10 PM,26/Nov/18 9:32 PM,26/Nov/18 1:30 PM,,Performance Program,,0,Functional,Web,"problem
+if we trigger review for more than the current date its showing review triggered already
+scenario
+1 log in as admin and create a program for 2018
+2 log in as user and create a kpi and publish
+3 log in as admin and trigger for more than current date and check for message
+cereditional
+program name :-TEST FOR 1900
+
+excepted result
+it should show proper message",,kiran.m,,,,,,,,,,,,,{},,,,,0|ywpcyx:,,,,,,QA,,,
+if we trigger for same date but for different employee its showing review triggered already ,NEV-2442,52252,52070,Sub-task,QA,NEV,Skylark,software,removed1,,,Major,,hitesh.jain@kpisoft.com,kiran.m,kiran.m,23/Nov/18 3:34 PM,23/Nov/18 7:31 PM,26/Nov/18 5:15 PM,,Performance Program,,0,Functional,Web,"problem
+if we trigger final review for one person by include everyone in,then if we trigger same review for another person its showing review triggered successfully but still update performance widget is there
+scenario
+1 log in as admin and start a program for 5 member
+2 log in as user1 and create a scorecard and submit to supervisor
+3 log in as admin and reset to publish 
+4 log in as admin and trigger for final review
+5 log in as user2 and create a scorecard 
+6 log in as admin and reset to publish 
+7 log in as admin and select the exciting review and select the include everyone in and enter the user2 employee code and try to trigger it showing already trigger 
+8 log in as user2 and check still update performance widget is present
+program name:-test for bug fixes
+user:-Behnken@tester.com
+excepted result
+it should not show triggered successfully and submit performance widget should present
+
+",,kiran.m,,,,,,,,,,,,,{},,,,,0|ywpcyh:,,,,,,QA,,,
+"[Kpi library]: Format of  ""validation result"" file,got  after uploading the invalid file for kpi is wrong ,so unable to open it",NEV-2428,52236,52223,Sub-task,QA,NEV,Skylark,software,removed1,,,Major,,chowdary@kpisoft.com,anuj.kothari,anuj.kothari,22/Nov/18 5:46 PM,26/Nov/18 9:32 PM,27/Nov/18 12:17 PM,,HRIS Data,,0,Functional,,"+PROBLEM DESCRIPTION:+
+Format of  ""validation result"" file ,got after uploading the invalid file for kpi is wrong ,so unable to open it
+
++STEPS TO REPRODUCE:+
+1. login to sdg and navigate to epms admin
+2. select kpi library option
+3. Click on upload button  and download template 
+4. in template dont mention the ""Title"" and upload it
+5. it will fail but unable to open ""validation results"" file
+
++CREDENTIALS:+
+emp7@sdg.com
+Test@123
+
++EXPECTED RESULT:+
+user should be able to open the validation result file 
+
++ATTACHMENTS:(Y/N)+
+Y ",https://sdgqa.kpisoft.com/admin/#/menu/kpiLibraryBulkUpload,anuj.kothari,,,,,,,,,,,22/Nov/18 5:42 PM;anuj.kothari;VALIDATION_RESULTSxlsx;https://kpisoft.atlassian.net/secure/attachment/47402/VALIDATION_RESULTSxlsx,22/Nov/18 5:45 PM;anuj.kothari;validation file.png;https://kpisoft.atlassian.net/secure/attachment/47401/validation+file.png,{},,,,,0|ywpcux:,,,,,,QA,,,
+"[KPI Library]: There should be one seperate button to add ""KPI library Group Name"" to add Group",NEV-2427,52235,52223,Sub-task,QA,NEV,Skylark,software,removed1,,,Major,,sagar,anuj.kothari,anuj.kothari,22/Nov/18 5:12 PM,26/Nov/18 9:32 PM,27/Nov/18 12:17 PM,,HRIS Data,,0,Functional,,"+PROBLEM DESCRIPTION:+
+There should be one seperate button to add ""KPI library Group Name"" to add Group
+
+
+
++STEPS TO REPRODUCE:+
+1. login to sdg and navigate to epms admin.
+2. Select Group  library option
+3. Now click on addkpi button.
+4. in this we will get ""groupName"" option 
+
++CREDENTIALS:+
+emp3@sdg.com
+Test@123
+
++EXPECTED RESULT:+
+
++ATTACHMENTS:(Y/N)+Y
+Y
+",https://sdgqa.kpisoft.com/admin/#/menu/kpiOperation,anuj.kothari,jagadeesh.lakshmipathy,,,,,,,,,,22/Nov/18 5:08 PM;anuj.kothari;KPi library.png;https://kpisoft.atlassian.net/secure/attachment/47400/KPi+library.png,,{},,,,,0|ywpcup:,,,,,,QA,2018-11-22 09:40:08.936,22/Nov/18 5:40 PM;jagadeesh.lakshmipathy;Not required [~anuj.kothari]. We will take of that option which is being shown currently,
+"For Own and Share KPI frequency(monthly,quaterly) is not displaying, while editing the kpi ",NEV-2394,52188,52070,Sub-task,QA,NEV,Skylark,software,removed1,,,Major,,sagar,kiran.m,kiran.m,20/Nov/18 3:35 PM,26/Nov/18 9:32 PM,26/Nov/18 2:36 PM,,Performance Program,,0,Functional,Web,"problem
+while own/share after cascading the kpi if we click on edit and in frequency drop down is editable and frequency is not coming
+scenario
+1 log in as user and own/share after cascading
+2 click on edit and check for frequency
+excepted result
+frequency cannot edit for own kpi and frequency should present in dropdown
+user:-Euler@tester.com
+ !screenshot-1.png|thumbnail! 
+",,kiran.m,,,,,,,,,,,23/Nov/18 2:40 PM;kiran.m;screenshot-1.png;https://kpisoft.atlassian.net/secure/attachment/47414/screenshot-1.png,,{},,,,,0|ywpckp:,,,,,,QA,,,
+while cascaded(support) if we change the UOM to date and save its showing try again some time,NEV-2391,52185,52070,Sub-task,QA,NEV,Skylark,software,removed1,,,Critical,,hitesh.jain@kpisoft.com,kiran.m,kiran.m,20/Nov/18 2:47 PM,26/Nov/18 9:32 PM,26/Nov/18 3:29 PM,,Performance Program,,0,Functional,Web,"problem
+if we support the kpi and while cascaded kpi change the UOM and if we try to save it showing please try after sometime
+scenario
+1 log in as supervisor and published the scorecard
+2 log in as user and cascaded the kpi while cadcaded the kpi change the UOM to date
+user:-Bean@tester.com
+ !image-2018-11-20-12-17-44-944.png|thumbnail! ",,kiran.m,,,,,,,,,,,20/Nov/18 2:47 PM;kiran.m;image-2018-11-20-12-17-44-944.png;https://kpisoft.atlassian.net/secure/attachment/47355/image-2018-11-20-12-17-44-944.png,,{},,,,,0|ywpck1:,,,,,,QA,,,
+Status of scorecard is not displayed if we are enrolling a user in sdg,NEV-2315,52099,52070,Sub-task,QA,NEV,Skylark,software,removed1,,,Major,,nethra.hegde,ankur.kumari,ankur.kumari,15/Nov/18 8:27 PM,26/Nov/18 9:32 PM,26/Nov/18 7:13 PM,,Performance Program,,0,Functional,Web,"DESCRIPTION:
+Status of scorecard is not displayed if we are enrolling/adding employee for the program.
+Credentials:
+Username: sdg@qa.com
+password: Test@123
+Attachment:
+Y
+",https://sdgqa.kpisoft.com/admin/#/menu/programMonitorPage,ankur.kumari,,,,,,,,,,,15/Nov/18 8:27 PM;ankur.kumari;bug72.png;https://kpisoft.atlassian.net/secure/attachment/47305/bug72.png,,{},,,,,0|ywpc15:,,,,,,QA,,,
+Not able to create employee custom entity able to see 500 Internal Server Error,NEV-2246,51989,51324,Sub-task,QA,NEV,Skylark,software,removed1,,,Major,,chowdary@kpisoft.com,ramkumar,ramkumar,07/Nov/18 9:20 PM,26/Nov/18 9:32 PM,27/Nov/18 12:17 PM,,Performance Program,,0,,, !image-2018-11-07-18-50-51-436.png|thumbnail! ,https://sdgqa.kpisoft.com/home,ramkumar,,,,,,,,,,,,,{},,,,,0|ywpbd5:,,,,,,QA,,,
+Scorecard reset validation message is wrong.,NEV-2191,51850,49171,Sub-task,QA,NEV,Skylark,software,removed1,,,Major,,nethra.hegde,ankur.kumari,ankur.kumari,24/Oct/18 5:30 PM,23/Nov/18 8:17 PM,23/Nov/18 8:24 PM,,Performance Program,,0,Functional,Web,"+PROBLEM DESCRIPTION:+
+If scorecard is in created status then also admin is able to reset the scorecard. It is showing successful message.
+NOTE: If there is no kpi and kpi weightage is not 100%.
++STEPS TO REPRODUCE:+
+1. Login as admin and create a performance program.
+2. Start the program then change the status of the scorecard from created to any other thing.
++CREDENTIALS:+
+username: jack@airtel.com
+password: Test@123
++EXPECTED RESULT:+
+should give error message while resetting the scorecard status.
++ATTACHMENTS:(Y/N)+ 
+Y",Desktop,ankur.kumari,,,,,,,,,,,24/Oct/18 5:28 PM;ankur.kumari;bug40.png;https://kpisoft.atlassian.net/secure/attachment/47049/bug40.png,,{},,,,,0|ywpaip:,,,,,,QA,,22/Nov/18 5:46 PM;ankur.kumari;Kpi weightage should be 100%. If it is not 100% then error message should be displayed while resetting the scorecard status.,
+in switch user permission page there is no back button,NEV-2157,51793,51710,Sub-task,QA,NEV,Skylark,software,removed1,,,Major,,sagar,kiran.m,kiran.m,23/Oct/18 12:19 PM,26/Nov/18 9:32 PM,27/Nov/18 12:17 PM,,HRIS Data,,0,Functional,Web,"problem
+in switch user permission page there is no back button
+ !image-2018-10-23-09-49-13-791.png|thumbnail! ",,jagadeesh.lakshmipathy,kiran.m,,,,,,,,,,23/Oct/18 12:19 PM;kiran.m;image-2018-10-23-09-49-13-791.png;https://kpisoft.atlassian.net/secure/attachment/46985/image-2018-10-23-09-49-13-791.png,,{},,,,,0|ywpa61:,,,,,,QA,2018-10-23 09:52:47.855,23/Oct/18 5:52 PM;jagadeesh.lakshmipathy;Yes we should add it. ,
+"In KPI Info, Not able to see frequency and calculation type are not showing correctly",NEV-2134,51738,49171,Bug - Sub Task,QA,NEV,Skylark,software,removed1,,,Major,,sagar,ramkumar,ramkumar,17/Oct/18 9:09 PM,26/Nov/18 9:32 PM,27/Nov/18 12:17 PM,,Performance Program,,0,Web,,"+PROBLEM DESCRIPTION:+
+In KPI Info, Not able to see frequency and calculation type are not showing correctly
+
++STEPS TO REPRODUCE:+
+1. Login as user
+2. In Create Scorecard, create a kpi and click on KPI info
+3. In KPI Info, not able to see Period of Updates, Calculation type are not displaying correctly
+ !image-2018-10-17-18-27-58-522.png|thumbnail! 
+
++CREDENTIALS:+
+skylark@qa.com/Test@1234
+
++ATTACHMENTS:(Y/N)+
+Y",https://skylarkqa.kpisoft.com/home,ramkumar,,,,,,,,,,,17/Oct/18 8:58 PM;ramkumar;image-2018-10-17-18-27-58-522.png;https://kpisoft.atlassian.net/secure/attachment/46921/image-2018-10-17-18-27-58-522.png,,{},,,,,0|ywp9ux:,,,,,,QA,,,
+count on things to know does not disappear after clicking on all the notifications there,NEV-2078,51667,50286,Sub-task,QA,NEV,Skylark,software,removed1,,,Major,,nethra.hegde,kiran.m,kiran.m,16/Oct/18 3:41 PM,26/Nov/18 9:32 PM,26/Nov/18 5:40 PM,,HRIS Data,,0,Functional,Web,"problem
+count on things to know does not disappear after clicking on all the notifications there
+scenario
+1 log in as user and navigate to things to know 
+and click on all the notification but count is not reducing",,kiran.m,,,,,,,,,,,,,{},,,,,0|ywp9gx:,,,,,,QA,,,
+primary supervisor cannot able to see the secondary supervisor review template,NEV-1831,51276,49171,Bug - Sub Task,QA,NEV,Skylark,software,removed1,,,Major,,sagar,kiran.m,kiran.m,24/Sep/18 6:50 PM,26/Nov/18 9:32 PM,27/Nov/18 12:17 PM,,Performance Program,,0,Functional,Web,"problem
+once secondary supervisor given the review comments for template but in primary supervisor cannot able to see the secondary supervisor review template
+ !image-2018-09-24-16-20-36-334.png|thumbnail! ",,kiran.m,,,,,,,,,,,24/Sep/18 6:50 PM;kiran.m;image-2018-09-24-16-20-36-334.png;https://kpisoft.atlassian.net/secure/attachment/46538/image-2018-09-24-16-20-36-334.png,,{},,,,,0|ywp741:,,,,,,QA,,,
+[Performance Program]:There is no validation message when user is clicking on save button with out entering mandatory fields.,NEV-1781,51169,49171,Bug - Sub Task,QA,NEV,Skylark,software,removed1,,,Minor,,sagar,soumya.bhunia,soumya.bhunia,17/Sep/18 3:20 PM,23/Nov/18 8:18 PM,27/Nov/18 12:17 PM,,Performance Program,,0,Web,,"+PROBLEM DESCRIPTION:+
+
+There is no validation message when user is clicking on save button with out entering mandatory fields.
+
++STEPS TO REPRODUCE:+
+
+1.Create kpi and publish it.
+2.Click on Update performance widget and click on save button with out entering and any value.
+3.Check for system response and validation message.
+
++CREDENTIALS:+
+
+UserName: Emp2@dell.com
+Password: Test@123
+
++EXPECTED RESULT:+
+
+There should be error validation message or field validation message when user is trying to click on save button without entering any value.
+
++ATTACHMENTS:(Y/N)+N
+","Operating System: Windows 10(64 bit)
+Browser Type: Chrome
+Browser Version: Version 62.0.3202.94 (Official Build) (64-bit)
+Link: https://v7qa.kpisoft.com/home
+",soumya.bhunia,,,,,,,,,,,,,{},,,,,0|ywp6g9:,,,,,,QA,,,
+"In approve review, if approver reject ARD review by clicking on need more info mandatory condition validation is happening",NEV-1774,51128,49171,Bug - Sub Task,QA,NEV,Skylark,software,removed1,,,Major,,balaji.gopal,ramkumar,ramkumar,12/Sep/18 6:32 PM,26/Nov/18 9:32 PM,27/Nov/18 12:17 PM,,Performance Program,,0,mobile,,"+PROBLEM DESCRIPTION:+
+In approve review, if approver reject ARD review by clicking on need more info mandatory condition validation is happening
+
++STEPS TO REPRODUCE:+
+1. Login as Approver
+2. In approve review, reject ARD Review template ,
+3 without entering comments reject the review not able  to see validation message
+
++CREDENTIALS:+
+skylark@qa.com/Test@123
+
++EXPECTED RESULT:+
+Should not show validation message
+
++ATTACHMENTS:(Y/N)+
+N",skylarkqa.kpisoft.com/home,balaji.gopal,kiran.m,ramkumar,,,,,,,,,,,{},,,,,0|ywp67d:,,,,,,QA,2018-10-03 04:40:15.087,"03/Oct/18 12:40 PM;kiran.m;credential 
+user2@airtel.com","03/Oct/18 12:52 PM;balaji.gopal;Issues was not reproducible, only there  was wrong message showing up we changed it"
+[enhancement] in performance program monitor page in status change some of status,NEV-1742,51061,49171,Bug - Sub Task,QA,NEV,Skylark,software,removed1,,,Minor,,sagar,kiran.m,kiran.m,10/Sep/18 6:28 PM,26/Nov/18 8:22 PM,27/Nov/18 12:17 PM,,Performance Program,,0,UI/UX,Web,"*+PROBLEM DESCRIPTION:+
+in monitor page enhanced the status 
++STEPS TO REPRODUCE:+
+1 log in as admin and navigate to epms admin
+2 click on program name and in status change the status 
++CREDENTIALS:+
+jack@airtel.com
++EXPECTED RESULT:+
+status should be clear
++ATTACHMENTS:(Y/N)+*
+Y",,kiran.m,,,,,,,,,,,10/Sep/18 6:27 PM;kiran.m;bug in status1.png;https://kpisoft.atlassian.net/secure/attachment/46373/bug+in+status1.png,,{},,,,,0|ywp5sh:,,,,,,QA,,,
+"[Performance]:In kpi-kpi relationship when supervisor is editing his own kpi updating, cascade kpi pop up is not displaying.",NEV-1526,50745,49171,Bug - Sub Task,QA,NEV,Skylark,software,removed1,,,Major,,hitesh.jain@kpisoft.com,soumya.bhunia,soumya.bhunia,14/Aug/18 3:00 PM,26/Nov/18 9:32 PM,27/Nov/18 12:17 PM,,Performance Program,,0,Functional,,"+PROBLEM DESCRIPTION:+
+In kpi-kpi relationship when supervisor is editing his own kpi updating, cascade kpi pop up is not displaying.
+
++STEPS TO REPRODUCE:+
+1.Login as Admin and create a performance program.
+2.Login as supervisor,create kpi and published it.
+3.Login as Subordinate and take kpis from supervisor and submit it.
+4.Login as supervisor and  edit kpis which are own,share,support by subordinate.
+5.Check whether cascade kpi popup is displaying or not.
+
++CREDENTIALS:+
+
+Username: jack@apple.com
+Password: Test@123
+
++EXPECTED RESULT:+
+
+Cascade  kpi popup should show in the display.
+
++ATTACHMENTS:(Y/N)+N
+","Operating System: Windows 10(64 bit)
+Browser Type: Chrome
+Browser Version: Version 62.0.3202.94 (Official Build) (64-bit)
+Link: https://v7qa.kpisoft.com/home
+",ramkumar,soumya.bhunia,,,,,,,,,,16/Aug/18 3:07 PM;ramkumar;screenshot-1.png;https://kpisoft.atlassian.net/secure/attachment/46185/screenshot-1.png,,{},,,,,0|ywp3up:,,,,,,QA,2018-08-16 07:07:39.87,"16/Aug/18 3:07 PM;ramkumar; !screenshot-1.png|thumbnail! 
+
+Issue is Fixed. not able to reproduce the issue",

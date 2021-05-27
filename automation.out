@@ -1,0 +1,77 @@
+2021-05-27 00:05:69 INFO  LoggerHelper:150 - Entered goToLoginPage succesfully
+2021-05-27 00:05:302 INFO  LoggerHelper:153 - Executed goToLoginPage Successfully
+2021-05-27 00:05:348 INFO  LoggerHelper:168 - Entered TxtBx_Username succesfully
+2021-05-27 00:05:750 INFO  LoggerHelper:171 - Executed TxtBx_Username Successfully
+2021-05-27 00:05:751 INFO  LoggerHelper:184 - Entered TxtBx_password succesfully
+2021-05-27 00:05:971 INFO  LoggerHelper:187 - Executed TxtBx_password Successfully
+2021-05-27 00:05:979 INFO  LoggerHelper:150 - Entered goToLoginPage succesfully
+2021-05-27 00:05:547 INFO  LoggerHelper:153 - Executed goToLoginPage Successfully
+2021-05-27 00:05:548 INFO  LoggerHelper:168 - Entered TxtBx_Username succesfully
+2021-05-27 00:05:845 INFO  LoggerHelper:171 - Executed TxtBx_Username Successfully
+2021-05-27 00:05:846 INFO  LoggerHelper:184 - Entered TxtBx_password succesfully
+2021-05-27 00:05:90 INFO  LoggerHelper:187 - Executed TxtBx_password Successfully
+2021-05-27 00:05:93 INFO  LoggerHelper:132 - Entered clickSubmitButton succesfully
+2021-05-27 00:05:859 INFO  LoggerHelper:137 - Executed clickSubmitButton Successfully
+2021-05-27 00:05:860 INFO  SwitchUserPage:87 - Entered clickprofilebanner successfully
+2021-05-27 00:05:494 INFO  SwitchUserPage:92 - Executed clickprofilebanner successfully
+2021-05-27 00:05:495 INFO  LoggerHelper:332 - Entered ClickLnk_settings successfully
+2021-05-27 00:05:907 INFO  LoggerHelper:334 - Executed ClickLnk_settings successfully
+2021-05-27 00:05:908 INFO  SettingsPage:177 - Entered clickOnChangePassword
+2021-05-27 00:05:908 INFO  SettingsPage:178 - clicking on change password!!
+2021-05-27 00:05:256 INFO  SettingsPage:180 - clicked on change password!!
+2021-05-27 00:05:256 INFO  SettingsPage:181 - Executed clickOnChangePassword
+2021-05-27 00:05:259 INFO  SettingsPage:191 - Entered enterOldPassword
+2021-05-27 00:05:259 INFO  SettingsPage:192 - entering  old pwdEmp0103_123
+2021-05-27 00:05:615 INFO  SettingsPage:194 - entered old pwdEmp0103_123
+2021-05-27 00:05:616 INFO  SettingsPage:195 - Executed enterOldPassword
+2021-05-27 00:05:617 INFO  SettingsPage:205 - Entered enterNewPassword
+2021-05-27 00:05:618 INFO  SettingsPage:206 - entering  new pwdEmp0103_124
+2021-05-27 00:05:880 INFO  SettingsPage:208 - entered new pwdEmp0103_124
+2021-05-27 00:05:880 INFO  SettingsPage:209 - Executed enterNewPassword
+2021-05-27 00:05:880 INFO  SettingsPage:219 - Entered reEnterPassword
+2021-05-27 00:05:881 INFO  SettingsPage:220 - re-entering  new pwdEmp0103_124
+2021-05-27 00:05:150 INFO  SettingsPage:222 - re-entering new pwdEmp0103_124
+2021-05-27 00:05:151 INFO  SettingsPage:223 - Executed reEnterPassword
+2021-05-27 00:05:154 INFO  SettingsPage:233 - Entered clickOnSave
+2021-05-27 00:05:154 INFO  SettingsPage:234 - clicking on save
+2021-05-27 00:05:474 INFO  SettingsPage:237 - clicked on save
+2021-05-27 00:05:474 INFO  SettingsPage:238 - Executed clickOnSave
+2021-05-27 00:05:519 INFO  SettingsPage:1100 - Password has been changed succesfully
+2021-05-27 00:05:547 INFO  LoggerHelper:435 - Entered doLogout
+2021-05-27 00:05:547 INFO  LoggerHelper:436 - Clicking drpDwnMenuButton
+2021-05-27 00:05:970 INFO  LoggerHelper:438 - Clicking lnk_logOut
+2021-05-27 00:05:280 INFO  LoggerHelper:440 - Executed doLogout Successfully
+2021-05-27 00:05:282 INFO  LoggerHelper:168 - Entered TxtBx_Username succesfully
+2021-05-27 00:05:605 INFO  LoggerHelper:171 - Executed TxtBx_Username Successfully
+2021-05-27 00:05:606 INFO  LoggerHelper:184 - Entered TxtBx_password succesfully
+2021-05-27 00:05:885 INFO  LoggerHelper:187 - Executed TxtBx_password Successfully
+2021-05-27 00:05:888 INFO  LoggerHelper:132 - Entered clickSubmitButton succesfully
+2021-05-27 00:05:396 INFO  LoggerHelper:137 - Executed clickSubmitButton Successfully
+2021-05-27 00:05:398 INFO  SwitchUserPage:87 - Entered clickprofilebanner successfully
+2021-05-27 00:05:988 INFO  SwitchUserPage:92 - Executed clickprofilebanner successfully
+2021-05-27 00:05:988 INFO  LoggerHelper:332 - Entered ClickLnk_settings successfully
+2021-05-27 00:05:353 INFO  LoggerHelper:334 - Executed ClickLnk_settings successfully
+2021-05-27 00:05:353 INFO  SettingsPage:177 - Entered clickOnChangePassword
+2021-05-27 00:05:353 INFO  SettingsPage:178 - clicking on change password!!
+2021-05-27 00:05:634 INFO  SettingsPage:180 - clicked on change password!!
+2021-05-27 00:05:634 INFO  SettingsPage:181 - Executed clickOnChangePassword
+2021-05-27 00:05:634 INFO  SettingsPage:191 - Entered enterOldPassword
+2021-05-27 00:05:634 INFO  SettingsPage:192 - entering  old pwdEmp0103_124
+2021-05-27 00:05:930 INFO  SettingsPage:194 - entered old pwdEmp0103_124
+2021-05-27 00:05:930 INFO  SettingsPage:195 - Executed enterOldPassword
+2021-05-27 00:05:931 INFO  SettingsPage:205 - Entered enterNewPassword
+2021-05-27 00:05:932 INFO  SettingsPage:206 - entering  new pwdEmp0103_123
+2021-05-27 00:05:187 INFO  SettingsPage:208 - entered new pwdEmp0103_123
+2021-05-27 00:05:187 INFO  SettingsPage:209 - Executed enterNewPassword
+2021-05-27 00:05:187 INFO  SettingsPage:219 - Entered reEnterPassword
+2021-05-27 00:05:188 INFO  SettingsPage:220 - re-entering  new pwdEmp0103_123
+2021-05-27 00:05:463 INFO  SettingsPage:222 - re-entering new pwdEmp0103_123
+2021-05-27 00:05:463 INFO  SettingsPage:223 - Executed reEnterPassword
+2021-05-27 00:05:463 INFO  SettingsPage:233 - Entered clickOnSave
+2021-05-27 00:05:463 INFO  SettingsPage:234 - clicking on save
+2021-05-27 00:05:755 INFO  SettingsPage:237 - clicked on save
+2021-05-27 00:05:756 INFO  SettingsPage:238 - Executed clickOnSave
+2021-05-27 00:05:756 INFO  LoggerHelper:435 - Entered doLogout
+2021-05-27 00:05:757 INFO  LoggerHelper:436 - Clicking drpDwnMenuButton
+2021-05-27 00:05:276 INFO  LoggerHelper:438 - Clicking lnk_logOut
+2021-05-27 00:05:588 INFO  LoggerHelper:440 - Executed doLogout Successfully
